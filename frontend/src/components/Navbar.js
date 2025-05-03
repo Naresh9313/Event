@@ -1,4 +1,4 @@
-"use client"
+
 import { AppBar, Toolbar, Typography, Button, Box } from "@mui/material"
 import { Link, useNavigate } from "react-router-dom"
 import { useAuth } from "../context/AuthContext"
