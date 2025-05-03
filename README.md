@@ -1,9 +1,13 @@
-1step :Clone for Github  git clone "https://github.com/Naresh9313/Event-Registration-System.git"
+1step :Clone for Github  git clone "https://github.com/Naresh9313/Event.git"
+
+
 
 2step: frontend & backend  both are  npm i   
        frontend side run in : npm start 
        backend  side run in : nodemon index.js
 
+
+Email transporter configuration failed: Error: Invalid login: 535-5.7.8 Username and Password not accepted. this error means email_user & email_password are enter...
 #Mail
 EMAIL_HOST=smtp.gmail.com      
 EMAIL_PORT=587                   
@@ -11,6 +15,7 @@ EMAIL_SECURE=false
 EMAIL_USER=Email Id,
 EMAIL_PASS=App password,
 EMAIL_FROM="Event App "
+
 
 #Mongodb  connection 
 MONGODB_URI=mongodb://localhost:27017/EventRegistrationSystem
