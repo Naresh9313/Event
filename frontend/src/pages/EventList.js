@@ -1,6 +1,4 @@
-// Update your EventList component to include category filtering
 
-"use client"
 
 import { useState, useEffect } from "react"
 import {
