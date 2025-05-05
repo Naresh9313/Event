@@ -2,7 +2,7 @@
   "name": "event-registration-backend",
   "version": "1.0.0",
   "description": "Event Registration System Backend",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js",
